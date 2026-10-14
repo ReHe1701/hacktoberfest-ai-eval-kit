@@ -1,0 +1,6 @@
+{"id":"community-en","category":"open-source","prompt":"Name the October open-source community celebration. Reply with its name only.","check":{"type":"exact","value":"Hacktoberfest"}}
+{"id":"community-zh","category":"open-source","prompt":"用中文说明贡献开源项目前应该阅读什么文档，答案应包含 README 和贡献指南。","check":{"type":"contains_all","values":["README","贡献指南"]}}
+{"id":"arithmetic","category":"reasoning","prompt":"What is 17 + 25? Reply with the number only.","check":{"type":"exact","value":"42"}}
+{"id":"structured-plan","category":"structured-output","prompt":"Return a JSON object with title, steps, and validation keys for a small open-source contribution plan.","check":{"type":"json_keys","keys":["title","steps","validation"]}}
+{"id":"review-en","category":"open-source","prompt":"Describe two checks to do before submitting a pull request. Include tests and documentation.","check":{"type":"contains_all","values":["tests","documentation"]}}
+{"id":"ai-limits-zh","category":"ai-literacy","prompt":"用中文简要说明关键词评测的局限，包含关键词和人工复核。","check":{"type":"contains_all","values":["关键词","人工复核"]}}

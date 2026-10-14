@@ -1,0 +1,6 @@
+{"id":"community-en","response":"Hacktoberfest"}
+{"id":"community-zh","response":"请先阅读 README 和贡献指南，了解项目范围与验证方法。"}
+{"id":"arithmetic","response":"42"}
+{"id":"structured-plan","response":"{\"title\":\"Improve examples\",\"steps\":[\"Reproduce a gap\",\"Add a case\"],\"validation\":\"Run tests\"}"}
+{"id":"review-en","response":"Run the tests and update the documentation."}
+{"id":"ai-limits-zh","response":"关键词匹配只能检查特定文字是否出现，不能证明答案正确，仍需人工复核。"}
